@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Page Transitions</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <!--
+		//	projects
+		///////////////////////////////////-->
+  <div class="page__style projects">
+    <div class="page__description">
+      <div id="projects">
+
+        <h1>Etapa 1</h1>
+        <button class="btn_nav paso1 visitado p1c"></button>
+
+        <div class="imagen-1"><img class="pant2" src="images\Pantalla-02.png"></div>
+        <a class="boton btn1" href="#popup1"></a>
+        <a class="boton btn2" href="#popup2"></a>
+
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Etapa 1: offline</h4>
+              Antes del surgimiento y el uso masivo de internet, las empresas tenían toda su información concentrada en
+              sus instalaciones de trabajo, lo que suponía que si los clientes requerían cierta información, tenían que
+              comunicarse por los medios disponibles; teléfono, fax o atención presencial.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup2" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              cuando se quería reservar en algún hotel, se buscaba en un directorio telefónico el hotel de preferencia,
+              se llamaba y por ese medio se obtenían costos. Si el hotel y los costos eran del agrado del cliente, en
+              ese momento se realizaba la reservación; posteriormente los clientes llegaban a la ubicación del hotel y
+              al registrarse pagaban su hospedaje.
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="imagenes-1">
+          <!--<img class="img2" src="images\Picture8.png" alt="" srcset="">-->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+		//	skills
+		///////////////////////////////////-->
+  <div class="page__style skills">
+    <div class="page__description">
+      <div id="skills">
+        <h1>Etapa 2</h1>
+
+        <button class="btn_nav paso1 visitado p1c"></button>
+        <button class="btn_nav paso4 visitado p2c"></button>
+
+        <div class="imagen-1"><img class="pant2" src="images\Pantalla-03.png"></div>
+        <a class="boton btn3" href="#popup3"></a>
+        <a class="boton btn4" href="#popup4"></a>
+        <a class="boton btn5" href="#popup5"></a>
+        <a class="boton btn6" href="#popup6"></a>
+        <a class="boton btn7" href="#popup7"></a>
+
+        <a class="boton btn8" href="#popup8"></a>
+        <a class="boton btn9" href="#popup9"></a>
+        <a class="boton btn10" href="#popup10"></a>
+        <a class="boton btn11" href="#popup11"></a>
+        <a class="boton btn12" href="#popup12"></a>
+
+
+
+
+        <div id="popup3" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Web 1.0</h4>
+              Una etapa de información unidireccional.
+              En los años 90, las empresas comenzaron a utilizar el internet creando sus páginas web en donde publicaban
+              su información. Toda esa información que antes se encontraba en los directorios telefónicos, quedó en la
+              web para acceso de sus potenciales clientes.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup8" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              La información que antes se obtenía al buscar en el directorio telefónico, ahora los clientes la podían
+              obtener al ingresar a la página web del hotel, sin embargo, aunque tenían acceso a la información en
+              línea, también tenían que llamar al hotel para hacer una reservación.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup4" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Web 2.0</h4>
+              Una etapa de información bidireccional.
+              A finales de los años 90 surgió la web 2.0 en donde además de publicar información, las empresas también
+              podían recibir información y de esta manera tener interacción con los clientes.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup9" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              Para hospedarse en un hotel, los clientes no tenían que buscar en un directorio, ahora la información la
+              podían buscar en internet en una página web. También en la misma página, se podía contactar al hotel para
+              hacer una reserva.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup5" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Web 3.0</h4>
+              Una etapa de recolección y almacenamiento de información.
+              A inicios de los años 2000 surge la web 3.0, en donde los sitios web recolectan información que almacenan
+              en sus servidores, lo que genera que exista una memoria de la interacción entre cliente y empresa
+              (metadatos) acelerando el proceso.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup10" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              Cuando el cliente quiere reservar un hotel, busca en la página web, se contacta con el hotel llenando un
+              formulario. Si el cliente ya se ha hospedado en el hotel, el sitio web ya tiene su información en bases de
+              datos, por lo que el proceso de reservación se hace más expedito.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup6" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Web 4.0</h4>
+              Una etapa de uso de la información almacenada.
+              A partir del 2010, se habla de procesos con inteligencia artificial, en donde la tecnología comienza a
+              conectar los metadatos para predecir los comportamientos de los clientes y tomar decisiones como el tipo
+              de publicidad y recomendaciones a ofrecerle.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup11" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              Si el cliente quiere reservar en un hotel, busca en la página web; sin embargo, gracias a la inteligencia
+              artificial el sitio web del hotel ya sabe quién es el cliente y sus preferencias de hospedaje. Con base en
+              las preferencias del cliente, el sitio genera recomendaciones tanto de habitaciones como de transporte.
+              Al hacer la reservación, el sitio web se conecta con el calendario digital del cliente para incluir la
+              fecha de hospedaje.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup7" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>Web 5.0</h4>
+              Una etapa de interacción entre lo virtual y lo físico.
+              En los últimos años se ha hablado del internet de las cosas, en donde la tecnología permite conectar y
+              manejar objetos.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup12" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              <h4>En el sector hotelero</h4>
+              Tras hacer una reservación, el hotel puede brindar un código en radio frecuencia (RFDI) para que al entrar
+              al hotel el check in se realice de manera automática, y el huésped pueda abrir la puerta de su habitación
+              sin necesidad de una llave física.
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <!--
+		//	about
+		///////////////////////////////////-->
+  <div class="page__style about">
+    <div class="page__description">
+      <div id="about">
+
+        <div class="box"></div>
+
+        <h1></h1>
+        <button class="btn_nav paso2"></button>
+        <button class="btn_nav paso3"></button>
+        <div class="cuerpo">
+        </div>
+
+        <!--<img class="imagen-1" src="images\Picture1.png" alt="" srcset="">-->
+        <div class="imagen-1"><img class="pant4" src="images\Pantalla-04.png"></div>
+        <p class="articulo2">Estos cambios han generado nuevos negocios como <b class="sb">Booking</b> en donde se agrupan varios en
+          hoteles y los clientes pueden interactuar con ellos, o como <b class="sb">Airbnb</b> en donde el cliente se puede conectar con
+          algunas personas que alquilan sus inmuebles. </p>
+
+
+      </div>
+    </div>
+  </div>
+  <!--
+		//	contact
+		///////////////////////////////////-->
+  <div class="page__style contact">
+    <div class="page__description">
+      <div id="contact">
+        <h1>Paso 5</h1>
+
+
+        <button class="btn_nav paso1 visitado">Paso 1</button>
+        <button class="btn_nav paso2 visitado">Paso 2</button>
+        <button class="btn_nav paso3 visitado">Paso 3</button>
+        <button class="btn_nav paso4 visitado">Paso 4</button>
+        <button class="paso5 activo">Paso 5</button>
+        <button class="btn_nav paso6">Paso 6</button>
+        <button class="btn_nav final">Final</button>
+
+        <div class="cuerpo">Configura cada propiedad, dando clic sobre ella y agregando el código de seguimiento.</div>
+
+        <div class="cuerpo3">
+          <iframe
+            src="https://cdnapisec.kaltura.com/p/2384071/sp/238407100/embedIframeJs/uiconf_id/44235471/partner_id/2384071?iframeembed=true&playerId=kaltura_player_1669368029&entry_id=1_m3nw7ryc"
+            style="border:0px #ffffff none; margin-top: 10px; margin-left: 20px;" name="myiFrame" scrolling="no"
+            frameborder="1" marginheight="0px" marginwidth="0px" height="380px" width="700px" allowfullscreen></iframe>
+          <div class="textop4">El código de seguimiento es un código que brinda Google Analytics, para que pueda empezar
+            a obtener la data de tu comercio electrónico. <br><br><br> Este código debes ponerlo dentro de tu sitio de
+            <i>E-Commerce.</i> <br><br><br> Revisa el video para saber cómo hacerlo.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--
+		//	projects
+		///////////////////////////////////-->
+  <div class="page__style projects2">
+    <div class="page__description">
+      <div id="projects">
+
+        <h1>Paso 6</h1>
+        <button class="btn_nav paso1 visitado">Paso 1</button>
+        <button class="btn_nav paso2 visitado">Paso 2</button>
+        <button class="btn_nav paso3 visitado">Paso 3</button>
+        <button class="btn_nav paso4 visitado">Paso 4</button>
+        <button class="btn_nav paso5 visitado">Paso 5</button>
+        <button class="activo paso6">Paso 6</button>
+        <button class="btn_nav final">Final</button>
+
+        <div class="cuerpo6">Pon a prueba tu código de seguimiento. Verifica que ya estás obteniendo tráfico de data
+          dentro de Universal Analytics. Puedes hacerlo compartiendo el URL de tu sitio con algunos de tus amigos y
+          familiares, en caso de que tu <i>E-Commerce</i> aún no esté muy activo.
+        </div>
+
+        <div class="cuerpo3">
+          <div class="textop6">Para verificar haz clic en “Informes” en la columna izquierda, luego selecciona “En
+            tiempo real” y posteriormente en
+            “Resumen” para que puedas verificar los usuarios activos en tu <i>E-Commerce</i>.
+
+            <div class="cuerpo7">Da clic en cada marcador de la imagen para saber qué otros datos te brinda el resumen
+              en tiempo real.
+            </div>
+          </div>
+          <img src="images\Picture5.png" alt="" class="imgp3">
+        </div>
+
+        <a class="boton btn1" href="#popup1">+</a>
+        <a class="boton btn2" href="#popup2">+</a>
+
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              Puedes ver cuántos y mediante qué dispositivo se están conectado.
+            </div>
+          </div>
+        </div>
+
+        <div id="popup2" class="overlay">
+          <div class="popup">
+            <a class="close" href="#"><span class="equis">&times;</span></a>
+            <div class="content">
+              Visualiza desde qué parte del mundo se están conectando.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--
+		//	skills
+		///////////////////////////////////-->
+  <div class="page__style skills2">
+    <div class="page__description">
+      <div id="skills">
+        <h1></h1>
+
+        <button class="btn_nav paso1 visitado">Paso 1</button>
+        <button class="btn_nav paso2 visitado">Paso 2</button>
+        <button class="btn_nav paso3 visitado">Paso 3</button>
+        <button class="btn_nav paso4 visitado">Paso 4</button>
+        <button class="btn_nav paso5 visitado">Paso 5</button>
+        <button class="btn_nav paso6 visitado">Paso 6</button>
+        <button class="activo final">Final</button>
+
+        <img class="imagen-1" src="images\Picture6.png" alt="" srcset="">
+
+      </div>
+    </div>
+  </div>
+  <!--
+		//	home
+		///////////////////////////////////-->
+  <div class="page__style home">
+    <div class="page__description">
+      <div id="home">
+
+        <div class="box"></div>
+
+        <h1></h1>
+        <button class="btn_nav paso2"></button>
+        <button class="btn_nav paso3"></button>
+        <div class="cuerpo">
+        </div>
+
+        <!--<img class="imagen-1" src="images\Picture1.png" alt="" srcset="">-->
+        <div class="imagen-1"><img class="pant1" src="images\Pantalla-01.png"></div>
+        <p class="articulo1">La tecnología ha tenido una evolución constante, lo que ha hecho que cambie la forma de ver
+          los negocios y el sector hotelero no ha sido la excepción. </p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="./script.js"></script>
+
+  <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="js/image-zoom.js" type="text/javascript"></script>
+
+</body>
+
+
+
+
+</html>
