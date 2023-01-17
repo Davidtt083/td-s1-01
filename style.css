@@ -247,7 +247,6 @@
   transition: 0.5s ease-out 100ms;
   text-align: center !important;
   text-decoration: none !important;
-  opacity: 0;
 }
 
 .boton:hover {
@@ -256,9 +255,9 @@
 }
 
 .btn1 {
-  margin-top: 146px;
+  margin-top: 173px;
   width: 232px !important;
-  margin-left: -112px;
+  margin-left: -77px;
   height: 70px !important;
   border-radius: 30px;
 }
@@ -266,14 +265,14 @@
 .btn2 {
   margin-top: 300px;
   width: 300px !important;
-  margin-left: -146px;
-  height: 150px !important;
+  margin-left: -117px;
+  height: 125px !important;
   border-radius: 30px;
 }
 
 .btn3 {
   margin-top: 128px;
-  margin-left: -385px;
+  margin-left: -424px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -281,7 +280,7 @@
 
 .btn4 {
   margin-top: 128px;
-  margin-left: -211px;
+  margin-left: -247px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -289,7 +288,7 @@
 
 .btn5 {
   margin-top: 128px;
-  margin-left: -32px;
+  margin-left: -67px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -297,7 +296,7 @@
 
 .btn6 {
   margin-top: 128px;
-  margin-left: 151px;
+  margin-left: 111px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -305,7 +304,7 @@
 
 .btn7 {
   margin-top: 128px;
-  margin-left: 329px;
+  margin-left: 292px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -313,7 +312,7 @@
 
 .btn8 {
   margin-top: 320px;
-  margin-left: -385px;
+  margin-left: -424px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -321,7 +320,7 @@
 
 .btn9 {
   margin-top: 320px;
-  margin-left: -211px;
+  margin-left: -247px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -329,7 +328,7 @@
 
 .btn10 {
   margin-top: 320px;
-  margin-left: -32px;
+  margin-left: -67px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -337,7 +336,7 @@
 
 .btn11 {
   margin-top: 320px;
-  margin-left: 151px;
+  margin-left: 111px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
@@ -345,10 +344,39 @@
 
 .btn12 {
   margin-top: 320px;
-  margin-left: 329px;
+  margin-left: 292px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
+}
+
+.btnh {
+  margin-top: 443px;
+  width: 65px !important;
+  margin-left: 10px;
+  height: 65px !important;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btnh2 {
+  position: absolute;
+  margin-top: 443px;
+  width: 65px !important;
+  margin-left: 6px;
+  height: 65px !important;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.btnh3 {
+  position: absolute;
+  margin-top: 497px;
+  width: 65px !important;
+  margin-left: -417px;
+  height: 65px !important;
+  border-radius: 50%;
+  opacity: 0;
 }
 
 .overlay {
@@ -486,14 +514,14 @@ figure.containerZoom.active img {
 
 .pant4 {
   position: absolute;
-  width: 94%;
+  width: 126%;
   margin-top: -93px;
-  margin-left: -674px;
+  margin-left: -764px
 }
 
 .paso2 {
   position: absolute;
-  margin-top: 208px;
+  margin-top: 165px;
   margin-left: -437px;
   z-index: 100;
   width: 300px !important;
@@ -503,7 +531,7 @@ figure.containerZoom.active img {
 
 .paso3 {
   position: absolute;
-  margin-top: 330px;
+  margin-top: 375px;
   margin-left: -437px;
   z-index: 100;
   width: 300px !important;
@@ -523,11 +551,21 @@ figure.containerZoom.active img {
 
 .p2c {
   position: absolute;
-  margin-top: 459px;
-  margin-left: 356px;
+  margin-top: 240px;
+  margin-left: 378px;
   z-index: 100;
   width: 13px !important;
-  height: 50px;
+  height: 78px;
+  opacity: 0;
+}
+
+.p3c {
+  position: absolute;
+  margin-top: 433px;
+  margin-left: -29px;
+  z-index: 100;
+  width: 70px !important;
+  height: 70px;
   opacity: 0;
 }
 
@@ -541,6 +579,7 @@ figure.containerZoom.active img {
   margin-top: 296px;
   margin-left: 519px;
 }
+
 .articulo2 {
   position: absolute;
   width: 40%;
@@ -552,9 +591,10 @@ figure.containerZoom.active img {
   margin-left: 451px;
 }
 
-.sb{
+.sb {
   font-weight: bold;
 }
+
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)
 ******************************************************************/
