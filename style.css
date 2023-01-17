@@ -244,7 +244,7 @@
   height: 30px;
   color: #fff;
   cursor: pointer;
-  transition: 0.5s ease-out 100ms;
+  transition: 1s ease-out 100ms;
   text-align: center !important;
   text-decoration: none !important;
 }
