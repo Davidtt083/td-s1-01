@@ -277,13 +277,15 @@
   height: 92px !important;
   border-radius: 30px;
 }
-.btn3E2{
+
+.btn3E2 {
   margin-top: 128px;
   margin-left: -424px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
 }
+
 .btn4 {
   margin-top: 128px;
   margin-left: -247px;
@@ -604,61 +606,62 @@ figure.containerZoom.active img {
 
 
 .toggle-fullscreen-btn {
-	position: absolute;
-	z-index: 10000;
-	top: 10px;
-	right: 10px;
-	border: 0;
-	padding: 0;
-	background: none;
-	cursor: pointer;
-	outline: none;
+  position: fixed;
+  z-index: 10000;
+  top: 58px;
+  right: 54px;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
 }
 
 
 .toggle-fullscreen-svg {
-	display: block;
-	height: auto;
+  display: block;
+  height: auto;
 }
 
 .toggle-fullscreen-svg path {
-	transform-box: view-box;
-	transform-origin: 12px 12px;
-	fill: none;
-	stroke: hsl(225, 10%, 8%);
-	stroke-width: 4;
-	transition: .15s;
+  transform-box: view-box;
+  transform-origin: 12px 12px;
+  fill: none;
+  stroke: hsl(225, 10%, 8%);
+  stroke-width: 4;
+  transition: .15s;
 }
 
 
 .toggle-fullscreen-btn:hover path:nth-child(1),
 .toggle-fullscreen-btn:focus path:nth-child(1) {
-	transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(2),
 .toggle-fullscreen-btn:focus path:nth-child(2) {
-	transform: translate(2px, -2px);
+  transform: translate(2px, -2px);
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(3),
 .toggle-fullscreen-btn:focus path:nth-child(3) {
-	transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
 }
 
 .toggle-fullscreen-btn:hover path:nth-child(4),
 .toggle-fullscreen-btn:focus path:nth-child(4) {
-	transform: translate(-2px, 2px);
+  transform: translate(-2px, 2px);
 }
 
 
 .toggle-fullscreen-btn:not(.on) .icon-fullscreen-leave {
-	display: none;
+  display: none;
 }
 
 .toggle-fullscreen-btn.on .icon-fullscreen-enter {
-	display: none;
+  display: none;
 }
+
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)
 ******************************************************************/
