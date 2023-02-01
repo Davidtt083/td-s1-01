@@ -255,29 +255,35 @@
 }
 
 .btn1 {
-  margin-top: 173px;
-  width: 232px !important;
-  margin-left: -77px;
-  height: 70px !important;
+  margin-top: 154px;
+  width: 208px !important;
+  margin-left: -368px;
+  height: 88px !important;
   border-radius: 30px;
 }
 
 .btn2 {
-  margin-top: 300px;
-  width: 300px !important;
-  margin-left: -117px;
+  margin-top: 340px;
+  width: 220px !important;
+  margin-left: -368px;
   height: 125px !important;
-  border-radius: 30px;
+  border-radius: 30px
 }
 
 .btn3 {
+  margin-top: 150px;
+  width: 201px !important;
+  margin-left: -62px;
+  height: 92px !important;
+  border-radius: 30px;
+}
+.btn3E2{
   margin-top: 128px;
   margin-left: -424px;
   width: 68px !important;
   height: 94px !important;
   border-radius: 16px;
 }
-
 .btn4 {
   margin-top: 128px;
   margin-left: -247px;
@@ -351,9 +357,9 @@
 }
 
 .btnh {
-  margin-top: 443px;
+  margin-top: 455px;
   width: 65px !important;
-  margin-left: 10px;
+  margin-left: -602px;
   height: 65px !important;
   border-radius: 50%;
   opacity: 0;
@@ -561,8 +567,8 @@ figure.containerZoom.active img {
 
 .p3c {
   position: absolute;
-  margin-top: 433px;
-  margin-left: -29px;
+  margin-top: 442px;
+  margin-left: -334px;
   z-index: 100;
   width: 70px !important;
   height: 70px;
@@ -595,6 +601,64 @@ figure.containerZoom.active img {
   font-weight: bold;
 }
 
+
+
+.toggle-fullscreen-btn {
+	position: absolute;
+	z-index: 10000;
+	top: 10px;
+	right: 10px;
+	border: 0;
+	padding: 0;
+	background: none;
+	cursor: pointer;
+	outline: none;
+}
+
+
+.toggle-fullscreen-svg {
+	display: block;
+	height: auto;
+}
+
+.toggle-fullscreen-svg path {
+	transform-box: view-box;
+	transform-origin: 12px 12px;
+	fill: none;
+	stroke: hsl(225, 10%, 8%);
+	stroke-width: 4;
+	transition: .15s;
+}
+
+
+.toggle-fullscreen-btn:hover path:nth-child(1),
+.toggle-fullscreen-btn:focus path:nth-child(1) {
+	transform: translate(-2px, -2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(2),
+.toggle-fullscreen-btn:focus path:nth-child(2) {
+	transform: translate(2px, -2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(3),
+.toggle-fullscreen-btn:focus path:nth-child(3) {
+	transform: translate(2px, 2px);
+}
+
+.toggle-fullscreen-btn:hover path:nth-child(4),
+.toggle-fullscreen-btn:focus path:nth-child(4) {
+	transform: translate(-2px, 2px);
+}
+
+
+.toggle-fullscreen-btn:not(.on) .icon-fullscreen-leave {
+	display: none;
+}
+
+.toggle-fullscreen-btn.on .icon-fullscreen-enter {
+	display: none;
+}
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)
 ******************************************************************/
